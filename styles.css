@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+
+.colorbox {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blue {
+    color: white;
+    background-color: #2D5DCC;
+}
+
+.pink {
+    color: black;
+    background-color: #D957D9;
+}
+
+.green {
+    color: black;
+    background-color: #4FE0B0;
+}
+
+.beige {
+    color: black;
+    background-color: #EFD9CA;
+}
+
+.fontbox {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 50px 10px 10px;
+}
+
+p.font-title {
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+p.font-bold {
+    font-weight: bolder;
+}
+
+p.font-italic {
+    font-style: italic;
+}
+
+#source-code-pro p {
+    font-family: 'Source Code Pro', serif;
+}
+
+#nunito-sans p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#poppins p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.textstylebox {
+    display: block;
+    width: 100%;
+}
+
+.textstylebox li {
+    font-size: 20px;
+    list-style: square;
+}
